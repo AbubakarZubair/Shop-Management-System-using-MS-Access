@@ -31,88 +31,26 @@ A comprehensive, user-friendly shop management solution designed for small to me
 - Business reporting and analytics
 
 
-## 🔧 Installation
 
-### 1. Clone the Repository
-```bash
-git clone https://github.com/yourusername/shop-management-system.git
-cd shop-management-system
-```
+###  Run
 
-### 2. Install Dependencies
-```bash
-# Install backend dependencies
-npm install
-
-# Install frontend dependencies (if separate)
-cd frontend
-npm install
-cd ..
-```
-
-### 3. Database Setup
-```bash
-# Create database
-# [Add your database creation commands]
-
-# Run migrations
-npm run migrate
-
-# Seed initial data (optional)
-npm run seed
-```
-
-### 4. Environment Configuration
-Create a `.env` file in the root directory:
-```env
-# Database Configuration
-DB_HOST=localhost
-DB_PORT=3306
-DB_NAME=shop_management
-DB_USER=your_username
-DB_PASSWORD=your_password
-
-# Application Configuration
-APP_PORT=3000
-JWT_SECRET=your_jwt_secret_key
-NODE_ENV=development
-
-# Other Configuration
-UPLOAD_PATH=./uploads
-MAX_FILE_SIZE=5MB
-```
-
-### 5. Run the Application
-```bash
-# Development mode
-npm run dev
-
-# Production mode
-npm run start
-```
-
-The application will be available at `http://localhost:3000`
 
 ## 🎯 Usage
 
 ### Getting Started
 
-1. **Initial Setup**
-   - Access the system at `http://localhost:3000`
-   - Create your shop profile
-   - Add shopkeeper details
 
-2. **Product Management**
+ **Product Management**
    - Navigate to Inventory → Add Product
    - Enter product details and initial stock quantity
    - Set up low-stock alerts
 
-3. **Customer Management**
+ **Customer Management**
    - Go to Customers → Add Customer
    - Enter customer information and contact details
    - Track customer purchase history
 
-4. **Invoice Generation**
+**Invoice Generation**
    - Select customer from database
    - Add products to invoice
    - Generate and print/send invoice
@@ -131,62 +69,23 @@ The application will be available at `http://localhost:3000`
 - Inventory updates
 - Customer service functions
 
-## 📖 API Documentation
-
-### Authentication
-```bash
-POST /api/auth/login
-POST /api/auth/logout
-POST /api/auth/register
-```
-
-### Products
-```bash
-GET /api/products          # Get all products
-POST /api/products         # Add new product
-PUT /api/products/:id      # Update product
-DELETE /api/products/:id   # Delete product
-```
-
-### Customers
-```bash
-GET /api/customers         # Get all customers
-POST /api/customers        # Add new customer
-PUT /api/customers/:id     # Update customer
-DELETE /api/customers/:id  # Delete customer
-```
-
-### Invoices
-```bash
-GET /api/invoices          # Get all invoices
-POST /api/invoices         # Create new invoice
-PUT /api/invoices/:id      # Update invoice
-DELETE /api/invoices/:id   # Delete invoice
-```
-
-For detailed API documentation, visit `/api/docs` when the server is running.
 
 ## 🖼️ Screenshots
 
+### Shop MAnagement System
+![Alt Text](picture1.png)
+
+### TAbles
+![Alt Text](picture2.PNG)
+
 ### Dashboard
-*[Add screenshot of main dashboard here]*
+![Alt Text](picture3.png)
 
-### Inventory Management
-*[Add screenshot of inventory management interface here]*
+### Main Menu
+![Alt Text](picture4.png)
 
-### Invoice Generation
-*[Add screenshot of invoice creation form here]*
-
-### Customer Management
-*[Add screenshot of customer management interface here]*
-
-
-### Test Coverage
-- Unit Tests: 95%
-- Integration Tests: 90%
-- E2E Tests: 85%
-
-
+### MAin Menu Report
+![Alt Text](picture5.PNG)
 
 ## 👥 Authors
 
