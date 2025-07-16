@@ -73,19 +73,19 @@ A comprehensive, user-friendly shop management solution designed for small to me
 ## 🖼️ Screenshots
 
 ### Shop MAnagement System
-![Alt Text](picture1.png)
+![Alt Text](Picture1.png)
 
 ### TAbles
 ![Alt Text](picture2.PNG)
 
 ### Dashboard
-![Alt Text](picture3.png)
+![Alt Text](Picture3.png)
 
 ### Main Menu
-![Alt Text](picture4.png)
+![Alt Text](Picture4.png)
 
 ### MAin Menu Report
-![Alt Text](picture5.PNG)
+![Alt Text](Picture5.PNG)
 
 ## 👥 Authors
 
